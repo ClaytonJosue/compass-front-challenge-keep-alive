@@ -1,0 +1,28 @@
+.main-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.misson-informations {
+	text-align: end;
+	margin-right: 60px;
+}
+
+.mission-informations__text {
+	color: var(--primary-color);
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.mission-informations__portuguese {
+	font-size: 15px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.mission-informations__title {
+	color: var(--primary-color);
+	font-size: 55px;
+	font-weight: 700;
+}

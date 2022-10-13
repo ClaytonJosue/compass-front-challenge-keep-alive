@@ -1,6 +1,7 @@
 /* Import styles */
 @import url("components/home/header.css");
 @import url("components/home/home-image.css");
+@import url("components/home/mission.css");
 
 :root {
 	--text-color: #222222;
