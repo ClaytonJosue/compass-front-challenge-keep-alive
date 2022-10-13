@@ -1,0 +1,20 @@
+.login-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 50%;
+}
+
+.login__message {
+	width: 50%;
+}
+
+.login__title {
+	font-size: 60px;
+}
+
+.login__text {
+	width: 300px;
+	margin-top: 20px;
+}

@@ -1,3 +1,7 @@
+/* Import styles */
+@import url("components/login-message.css");
+@import url("components/login-image.css");
+
 :root {
 	--background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
 	--button-color: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
@@ -12,4 +16,8 @@ body {
 	font-family: var(--font-primary);
 	font-weight: 400;
 	font-size: 16px;
+}
+
+.login {
+	display: flex;
 }

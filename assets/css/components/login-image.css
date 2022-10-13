@@ -1,0 +1,9 @@
+.image {
+	height: 66%;
+	width: 50%;
+}
+
+.image__background {
+	width: 100%;
+	height: 50%;
+}
