@@ -23,12 +23,23 @@
 	border-radius: 50px;
 	background-color: var(--input-color);
 	color: var(--color-text);
+	font-family: var(--font-primary);
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.password {
+	font-size: 40px;
+}
+
+.password::placeholder {
+	position: absolute;
 }
 
 .login__form--input::placeholder {
 	color: var(--color-text);
 	font-family: var(--font-primary);
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 }
 
