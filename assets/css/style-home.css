@@ -1,3 +1,6 @@
+/* Import styles */
+@import url("components/home/header.css");
+
 :root {
 	--text-color: #222222;
 	--primary-color: #C12D18;
