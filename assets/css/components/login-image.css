@@ -1,6 +1,13 @@
 .image {
 	height: 66%;
 	width: 50%;
+
+}
+
+.image__logo {
+	position: absolute;
+	right: 12%;
+	top: 20px;
 }
 
 .image__background {
