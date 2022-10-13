@@ -2,12 +2,15 @@
 @import url("components/home/header.css");
 @import url("components/home/home-image.css");
 @import url("components/home/mission.css");
+@import url("components/home/footer.css");
 
 :root {
 	--text-color: #222222;
 	--primary-color: #C12D18;
 	--bg-color: linear-gradient(105.96deg, #FFFFFF 0%, #F0F0F0 97.86%);
+	--text-button: #C13216;
 	--font-primary: 'Poppins', sans-serif;
+	--footer-color: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
 	--white: #FFFFFF;
 }
 
