@@ -11,3 +11,31 @@
 <h3 align="center"> 
 	🚧  Status: Doing 🚧 
  </h3>
+ 
+ ---
+
+<h2>Features</h2>
+
+- [ ] Login
+
+	- [X] Structure 
+	- [X] Stylization
+	- [X] Icon animation
+	- [X] Check user and password
+	- [ ] Save user to localStorage
+	
+- [X] Login error
+
+	- [X] Change styling
+	- [X] Add error message
+
+- [ ] Home
+
+	- [X] Structure
+	- [X] Stylization
+	- [ ] Current time and date
+	- [ ] Current location
+	- [ ] Current weather
+	- [ ] Page refresh counter
+	- [ ] Continue browsing button
+	- [ ] Logout button
