@@ -28,6 +28,11 @@
 	font-size: 14px;
 }
 
+/* .user--error,
+.password--error {
+	border: 1px solid ;
+} */
+
 .password {
 	font-size: 40px;
 }
@@ -45,6 +50,12 @@
 
 .login__form--image {
 	margin-left: 15px;
+	transition: 1s;
+}
+
+.input--active {
+	margin-left: -40px;
+	transition: 1s;
 }
 
 .login__form--div-button {
