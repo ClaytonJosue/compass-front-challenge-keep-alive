@@ -6,8 +6,10 @@ let user = {
 
 buttonForm.addEventListener("click", (event) => {
 	event.preventDefault();
+
 	if (userInput.value == user.email && userPassword.value == user.password) {
-		window.location.href = "../home.html";
+		localStorage.setItem("user", JSON.stringify(user));
+		window.location.replace("../home.html");
 	} else {
 		let messageError = form.querySelector(".login__form--message-error");
 		messageError.classList.remove("hidden");
