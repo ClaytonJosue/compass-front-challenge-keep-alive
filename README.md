@@ -16,13 +16,13 @@
 
 <h2>Features</h2>
 
-- [ ] Login
+- [X] Login
 
 	- [X] Structure 
 	- [X] Stylization
 	- [X] Icon animation
 	- [X] Check user and password
-	- [ ] Save user to localStorage
+	- [X] Save user to localStorage
 	
 - [X] Login error
 
@@ -33,9 +33,9 @@
 
 	- [X] Structure
 	- [X] Stylization
-	- [ ] Current time and date
-	- [ ] Current location
-	- [ ] Current weather
+	- [X] Current time and date
+	- [X] Current location
+	- [X] Current weather
 	- [ ] Page refresh counter
 	- [ ] Continue browsing button
 	- [ ] Logout button

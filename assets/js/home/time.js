@@ -27,5 +27,6 @@ function date() {
 
 	fullDate.textContent = `${weekName}, ${weekDay} de ${monthName} de ${year}`;
 }
+window.addEventListener('load', date);
 
 setInterval(date, 1000);
