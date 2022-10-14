@@ -26,12 +26,31 @@
 	font-family: var(--font-primary);
 	font-weight: 400;
 	font-size: 14px;
+	outline: none;
 }
 
-/* .user--error,
+.user--error,
 .password--error {
-	border: 1px solid ;
-} */
+	border: 1px solid var(--error-color);
+}
+
+.hidden {
+	display: none;
+}
+
+.login__form--error {
+	display: flex;
+	width: 335px;
+	justify-content: center;
+}
+
+.login__form--message-error {
+	color: var(--error-color);
+	font-weight: 700;
+	text-align: center;
+	margin-top: 15px;
+	width: 300px;
+}
 
 .password {
 	font-size: 40px;
