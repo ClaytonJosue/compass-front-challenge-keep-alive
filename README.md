@@ -29,13 +29,13 @@
 	- [X] Change styling
 	- [X] Add error message
 
-- [ ] Home
+- [X] Home
 
 	- [X] Structure
 	- [X] Stylization
 	- [X] Current time and date
 	- [X] Current location
 	- [X] Current weather
-	- [ ] Page refresh counter
-	- [ ] Continue browsing button
-	- [ ] Logout button
+	- [X] Page refresh counter
+	- [X] Continue browsing button
+	- [X] Logout button
