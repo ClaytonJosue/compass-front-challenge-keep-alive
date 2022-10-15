@@ -43,6 +43,7 @@ footer {
 
 .footer__count--seconds {
 	font-size: 14px;
+	width: 90px;
 }
 
 .footer__buttons {
