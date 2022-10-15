@@ -75,4 +75,5 @@ footer {
 	font-family: var(--font-primary);
 	font-weight: 700;
 	font-size: 12px;
+	cursor: pointer;
 }
