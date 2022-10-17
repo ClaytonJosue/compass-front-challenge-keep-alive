@@ -18,6 +18,8 @@ window.addEventListener("load", () => {
 	function getLocalization(pos) {
 		let latitude = pos.coords.latitude;
 		let longitude = pos.coords.longitude;
+
+		showLocalization(latitude, longitude);
 		getWeather(latitude, longitude);
 	}
 
@@ -25,6 +27,19 @@ window.addEventListener("load", () => {
 		alert(`Erro: ${err.message}`);
 	}
 });
+
+function showLocalization(lat, long) {
+	let localizationApi = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${long}&&addressdetails=1`;
+
+	fetch(localizationApi)
+		.then((response) => response.json())
+		.then((data) => {
+			const city = data.address.city;
+			const state = data.address.state;
+
+			localization.textContent = `${city} - ${state}`;
+		});
+}
 
 function getWeather(lat, long) {
 	fetch(`${api.url}?key=${api.key}&q=${lat},${long}&lang=${api.lang}`)
@@ -43,8 +58,6 @@ function getWeather(lat, long) {
 }
 
 function showWeather(weather) {
-	localization.textContent = `${weather.location.name} - ${weather.location.region}`;
 	currentIcon.setAttribute('src', `${weather.current.condition.icon}`);
-	currentTemperature.textContent = `${weather.current.temp_c}°`
+	currentTemperature.textContent = `${weather.current.temp_c}°`;
 }
-
