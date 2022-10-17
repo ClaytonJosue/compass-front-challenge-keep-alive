@@ -9,7 +9,7 @@
 </p>
 
 <h3 align="center"> 
-	🚧  Status: Done 🚧 
+	✔️  Status: Done ✔️
  </h3>
  
  ---
