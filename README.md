@@ -8,9 +8,22 @@
 <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/ClaytonJosue/compass-front-challenge-keep-alive" />
 </p>
 
+<p align="center">
+<a href="https://www.javascript.com/">Javascript</a> |
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML</a> |
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a>
+</p>
+
 <h3 align="center"> 
 	✔️  Status: Done ✔️
  </h3>
+ 
+ ---
+ <h2>About</h2>
+ 
+ <p>
+ This Project is a login page that allows the user to access the home page
+ </p>
  
  ---
 
