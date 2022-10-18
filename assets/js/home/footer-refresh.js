@@ -1,5 +1,5 @@
 let counter = document.querySelector(".footer__count--time");
-let counterNum = 180;
+let counterNum = 30;
 let currentCounter = setInterval(() => {
 
 	counterNum--;
